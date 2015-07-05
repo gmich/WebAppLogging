@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{43CD0F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Logging", "Infrastructure.Logging\Infrastructure.Logging.csproj", "{5C634205-E327-4167-91C5-08028BBF8273}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Server", "Elmah.Server\Elmah.Server.csproj", "{DCF2B16E-8DDE-43C2-94B4-470846680ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{5C634205-E327-4167-91C5-08028BBF8273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C634205-E327-4167-91C5-08028BBF8273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C634205-E327-4167-91C5-08028BBF8273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
