@@ -25,11 +25,26 @@ namespace Elmah.Server.Controllers
         {
             try
             {
-                throw new Exception("This is a message from the NLog logger");
+                throw new Exception("This is logged with NLog ");
             }
             catch (Exception ex)
             {
                 logger.Error(ex, " {0} ", ex.Message);
+            }
+        }
+
+        // GET /elmahProgrammatically
+        [Route("elmahProgrammatically")]
+        public void GetLogToELMAHProgrammatically()
+        {
+            try
+            {
+                throw new Exception("This is logged with Elmah programmatically");
+            }
+            catch (Exception ex)
+            {
+                //ErrorSignal.FromCurrentContext().Raise(ex);
+                ErrorLog.GetDefault(null).Log(new Error(ex));
             }
         }
 
