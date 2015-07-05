@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.IO;
 using System.Net;
 using System.Net.Http;
@@ -9,11 +10,27 @@ namespace Elmah.Server.Controllers
 {
     public class ExceptionController : ApiController
     {
+        private readonly static Logger logger = LogManager.GetCurrentClassLogger();
+
         // GET /action
         [Route("action")]
         public void GetActionException()
         {
             throw new InvalidOperationException("This exception was thrown in an action method.");
+        }
+
+        // GET /nlogException
+        [Route("nlogException")]
+        public void GetnlogException()
+        {
+            try
+            {
+                throw new Exception("This is a message from the NLog logger");
+            }
+            catch (Exception ex)
+            {
+                logger.Error(ex, " {0} ", ex.Message);
+            }
         }
 
         // GET /content

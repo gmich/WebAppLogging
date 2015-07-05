@@ -101,6 +101,7 @@
   <ItemGroup>
     <Compile Include="Attributes\ExceptionHandlingAttribute.cs" />
     <None Include="App.config" />
+    <Compile Include="Auditing\LoggingHandler.cs" />
     <Compile Include="Exceptions\ExceptionContext.cs" />
     <Compile Include="Exceptions\SomethingWentWrongException.cs" />
     <Compile Include="Exceptions\ApplicationSpecificException.cs" />
