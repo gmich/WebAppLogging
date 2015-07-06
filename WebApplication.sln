@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Logging", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Server", "Elmah.Server\Elmah.Server.csproj", "{DCF2B16E-8DDE-43C2-94B4-470846680ED6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tracing", "Infrastructure.Tracing\Infrastructure.Tracing.csproj", "{E107BBBD-CAB3-4B09-9A48-8437775786A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF2B16E-8DDE-43C2-94B4-470846680ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

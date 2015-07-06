@@ -64,3 +64,4 @@ C:\Users\George\Documents\GitHub\WebAppLogging\Infrastructure.Logging\bin\Debug\
 C:\Users\George\Documents\GitHub\WebAppLogging\Infrastructure.Logging\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\George\Documents\GitHub\WebAppLogging\Infrastructure.Logging\obj\Debug\Infrastructure.Logging.dll
 C:\Users\George\Documents\GitHub\WebAppLogging\Infrastructure.Logging\obj\Debug\Infrastructure.Logging.pdb
+C:\Users\George\Documents\GitHub\WebAppLogging\Infrastructure.Logging\obj\Debug\Infrastructure.Logging.csprojResolveAssemblyReference.cache

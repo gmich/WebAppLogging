@@ -123,3 +123,4 @@ C:\Users\George\Documents\GitHub\WebAppLogging\WebApplication\bin\System.Web.Web
 C:\Users\George\Documents\GitHub\WebAppLogging\WebApplication\bin\System.Web.WebPages.Razor.xml
 C:\Users\George\Documents\GitHub\WebAppLogging\WebApplication\obj\Debug\WebApplication.dll
 C:\Users\George\Documents\GitHub\WebAppLogging\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\George\Documents\GitHub\WebAppLogging\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
