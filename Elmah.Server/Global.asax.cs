@@ -9,5 +9,6 @@ namespace Elmah.Server
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
+
     }
 }
